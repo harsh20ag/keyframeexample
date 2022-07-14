@@ -1,0 +1,19 @@
+@keyframes firstone 
+{
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+div 
+{
+    background-color: powderblue;
+    width: 30%;
+    height: 100px;
+    animation-name: firstone;
+    animation-duration: 4s;
+}
